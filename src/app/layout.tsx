@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "NZ Soft Sweet | Fresh Sweets Made in New Zealand",
-  description: "Handcrafted sweets made with love in New Zealand. From classic gummies to chocolate truffles.",
+  title: "NZ Soft Sweet | Electrolyte Gummies Made in New Zealand",
+  description: "Handcrafted electrolyte gummies, made with love in New Zealand.",
 };
 
 export default function RootLayout({

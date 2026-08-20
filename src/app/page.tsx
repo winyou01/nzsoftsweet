@@ -10,24 +10,26 @@ export default function Home() {
     <>
       <Hero />
 
-      {/* Featured Products */}
+      {/* Our one product */}
       <section className="mx-auto max-w-6xl px-6 py-20">
-        <div className="flex items-end justify-between">
-          <div>
-            <h2 className="text-2xl font-bold text-slate-900">Featured Sweets</h2>
-            <p className="mt-1 text-sm text-slate-500">Our most popular picks</p>
-          </div>
+        <div className="text-center">
+          <h2 className="text-2xl font-bold text-slate-900">One Sweet, Done Properly</h2>
+          <p className="mt-1 text-sm text-slate-500">
+            Electrolyte gummies &mdash; that&apos;s the whole range.
+          </p>
+        </div>
+        <div className="mx-auto mt-8 max-w-sm">
+          {featured.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+        <div className="mt-8 text-center">
           <Link
             href="/products"
             className="text-sm font-medium text-amber-600 hover:text-amber-700"
           >
-            View all &rarr;
+            See the details &rarr;
           </Link>
-        </div>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {featured.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
         </div>
       </section>
 

@@ -6,11 +6,11 @@ export default function Hero() {
       <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
-            Sweet treats, made{" "}
+            Electrolyte gummies, made{" "}
             <span className="text-amber-600">fresh in NZ</span>
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            From classic gummies to handcrafted chocolates, we make sweets the way they should
+            Real electrolytes in a chewy fruit gummy. One product, made the way sweets should
             be &mdash; with quality ingredients and a whole lot of heart.
           </p>
           <div className="mt-8 flex gap-4">
@@ -18,7 +18,7 @@ export default function Hero() {
               href="/products"
               className="rounded-full bg-amber-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-amber-700"
             >
-              Browse Sweets
+              Shop Electrolyte Gummies
             </Link>
             <Link
               href="/about"

@@ -22,8 +22,8 @@ export default function AboutPage() {
         </p>
         <p>
           Based in New Zealand, we source local ingredients wherever possible and take pride in
-          supporting our community. Whether it&apos;s classic gummy bears, rich chocolate truffles,
-          or tangy sour worms, we put the same love and attention into every treat.
+          supporting our community. We make one thing &mdash; electrolyte gummies &mdash; and we put
+          all of that love and attention into every single batch.
         </p>
       </div>
 
